@@ -1,5 +1,5 @@
-const apiKey = "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";
 const apiUrl = "https://api.openai.com/v1/chat/completions";
+const apiKey = "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";
 const btn = document.querySelector("#btn");
 const Sentiment = document.querySelector("#Sentiment");
 
@@ -34,7 +34,7 @@ function getSentiment() {
   })
     .then((response) => response.json())
     .then((data) => {
-      Sentiment.textContent = " ⏩ " + data.choices[0].message.content;
+      Sentiment.textContent = " ⏩ " + data.choices[0]?.message?.content;
     })
     .catch((error) => {
       Sentiment.textContent = error.message;
