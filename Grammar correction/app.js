@@ -34,7 +34,7 @@ function getcorrectSentence() {
   })
     .then((response) => response.json())
     .then((data) => {
-      console.log(data)
+      
       correctSentence.textContent = " ⏩ " + data.choices[0]?.message?.content;
     })
     .catch((error) => {
