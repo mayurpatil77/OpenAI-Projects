@@ -34,7 +34,6 @@ function getTimeComplexity() {
   })
     .then((response) => response.json())
     .then((data) => {
-      console.log(data)
       timeComplexity.textContent = " ⏩ " + data.choices[0]?.message?.content;
     })
     .catch((error) => {
