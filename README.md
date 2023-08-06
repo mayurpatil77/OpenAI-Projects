@@ -3,6 +3,15 @@
 ---
 ---
 
+# Single Page Website Generator  
+
+This Tools Generates Single Page Webpage Based on Text Description  ( Topic ) Given By User...
+
+![Preview 1](https://github.com/mayurpatil77/OpenAI-Projects/blob/main/Single%20Page%20Website%20Generator/Assets/Preview%201.jpg?raw=true)
+![Preview 2](https://github.com/mayurpatil77/OpenAI-Projects/blob/main/Single%20Page%20Website%20Generator/Assets/Preview%202.jpg?raw=true)
+
+---
+---
 
 ## Code Bug Fixer
 A tool that helps identify and fix bugs in source code. It assists developers in debugging their code efficiently.
