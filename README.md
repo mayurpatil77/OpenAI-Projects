@@ -1,7 +1,9 @@
 # Small Tools Made With the Help of Open-Ai
 
 ---
+Note : API key is Dummy
 ---
+
 
 # Single Page Website Generator  
 
